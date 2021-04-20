@@ -1,0 +1,307 @@
+Exercício 1:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+int n1;
+printf("Digite um valor:");
+scanf("%d", &n1);
+if (n1 > 10) { 
+printf("Esse numero e maior que 10");
+}
+getch();
+return 0; //
+}
+
+///////////////////////////////////////////
+Exercício 2:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    int n1, n2;
+    printf("Digite um dos valores:");
+    scanf("%d", &n1);
+    printf("Digite o outro valor:");
+    scanf("%d", &n2);
+    if (n1 == n2) { 
+        printf("Esses numeros sao iguais");
+    } else {
+        printf("Esses numeros sao diferentes");
+    }
+    getch();
+return 0; //
+}
+
+///////////////////////////////////////////
+Exercício 3:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    int n1;
+    printf("Digite um numero:");
+    scanf("%d", &n1);
+    if (n1 % 2 == 0) { 
+        printf("Esse numero e par");
+    } else {
+        printf("Esse numero e impar");
+    }
+    getch();
+return 0; //
+}
+
+
+///////////////////////////////////////////
+Exercício 4:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    int n1, n2;
+    printf("Digite o primeiro numero:");
+    scanf("%d", &n1);
+    printf("Digite o segundo numero:");
+    scanf("%d", &n2);
+    if (n1 % n2 == 0)  { 
+        printf("Esse numero e divisivel por %d", n2);
+    } else {
+        printf("Esse numero nao e divisivel por %d", n2);
+    }
+    getch();
+return 0; //
+}
+
+///////////////////////////////////////////
+Exercício 5:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    int n1, n2;
+    printf("Digite o primeiro numero:");
+    scanf("%d", &n1);
+    printf("Digite o segundo numero:");
+    scanf("%d", &n2);
+    if (n1 > n2)  { 
+        printf("%d", n1);
+    } else {
+        printf("%d", n2);
+    }
+    getch();
+return 0; //
+}
+
+
+///////////////////////////////////////////
+Exercício 6:
+
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    int var_A, var_B;
+    printf("Digite o primeiro numero:");
+    scanf("%d", &var_A);
+    printf("Digite o segundo numero:");
+    scanf("%d", &var_B);
+    if (var_A > var_B)  { 
+        printf("%d, %d", var_B, var_A);
+    } else {
+        printf("%d, %d", var_A, var_B);
+    }
+    getch();
+return 0; //
+}
+
+
+///////////////////////////////////////////
+Exercício 7:
+#include <stdio.h>
+#include <stdlib.h> 
+#include <math.h> 
+
+int main() {
+    float A, B, C, delta, X1, X2;
+    printf("Digite o valor do termo A: ");
+    scanf("%f", &A);
+    printf("Digite o valor do termo B: ");
+    scanf("%f", &B);
+    printf("Digite o valor do termo C: ");
+    scanf("%f", &C);
+
+    delta = (B*B - 4*A*C);
+    X1 = (-B + sqrt(delta)) / (2*A);
+    X2 = (-B - sqrt(delta)) / (2*A);
+
+    if (delta < 0)  { 
+        printf("Essa equacao nao possui raiz real");
+    } else {
+        printf("X1 = %2.f", X1);
+        printf("\nX2 = %2.f", X2);
+    }
+    getch();
+return 0; //
+}
+
+///////////////////////////////////////////
+Exercício 8:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    char senha[12] = "batatafrita";
+    char nova_senha[12];
+    printf("Digite sua senha: ");
+    scanf("%s", nova_senha);
+
+    if (strcmp (nova_senha,senha) == 0)  { 
+        printf("Acesso permitido");
+    } else {
+        printf("Voce nao tem acesso ao sistema");
+    }
+    getch();
+return 0; //
+}
+
+///////////////////////////////////////////
+Exercício 9:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    char nome[30];
+    float nota1, nota2, nota3, media;
+    int faltas, aulas;
+    printf("Digite seu nome: ");
+    scanf("%s", nome);
+
+    printf("Digite a nota da p1: ");
+    scanf("%f", &nota1);
+
+    printf("Digite a nota da p2: ");
+    scanf("%f", &nota2);
+
+    printf("Digite a nota da p3: ");
+    scanf("%f", &nota3);
+
+    printf("Digite o numero de faltas: ");
+    scanf("%d", &faltas);
+    
+    aulas = 80;
+    media = (nota1 + nota2 + nota3)/3;
+    if (media < 7) {
+        printf("Reprovado por Media");
+    }
+    else {
+         if(faltas == aulas*0.25){
+             printf("Reprovado por Falta");
+         } else {
+             printf("Aprovado");
+         }
+    }
+
+
+    getch();
+return 0; //
+}
+
+///////////////////////////////////////////
+Exercício 10:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    float numero;
+    printf("Digite um numero: ");
+    scanf("%f", &numero);
+
+    if (numero >= 20 && numero <= 90) {
+        printf("esta entre 20 e 90");
+    }
+    else {
+        printf("NAO esta entre 20 e 90");
+    }
+
+    getch();
+return 0; //
+}
+
+///////////////////////////////////////////
+Exercício 11:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    float compra, venda;
+    printf("Digite o valor de compra do produto: ");
+    scanf("%f", &compra);
+
+    if (compra  < 20) {
+        venda = compra * 1.45;
+        printf("O valor de venda deste produto sera %.2f", venda);
+    }
+    else {
+        venda = compra * 1.3;
+        printf("O valor de venda deste produto sera %.2f", venda);
+    }
+
+    getch();
+return 0; //
+}
+
+///////////////////////////////////////////
+Exercício 12:
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main() {
+    float salario;
+    printf("Digite o valor do seu salario: ");
+    scanf("%f", &salario);
+
+    if (salario <= 600) {
+        salario = salario * 1.3;
+        printf("Seu reajuste salarial sera %.2f", salario);
+        
+        getch();
+        return 0; //
+    }
+
+     if (salario >= 600.01 && salario <= 1100) {
+        salario = salario * 1.25;
+        printf("Seu reajuste salarial sera %.2f", salario);
+        getch();
+        return 0; //
+    }
+
+    if (salario >= 1100.01 && salario <= 2400) {
+        salario = salario * 1.2;
+        printf("Seu reajuste salarial sera %.2f", salario);
+        getch();
+        return 0; //
+    }
+
+    if (salario >= 1100.01 && salario <= 2400) {
+        salario = salario * 1.2;
+        printf("Seu reajuste salarial sera %.2f", salario);
+        getch();
+        return 0; //
+    }
+
+    if (salario >= 2400.01 && salario <= 3550) {
+        salario = salario * 1.15;
+        printf("Seu reajuste salarial sera %.2f", salario);
+        getch();
+        return 0; //
+    }
+
+    if (salario > 3550) {
+        salario = salario * 1.1;
+        printf("Seu reajuste salarial sera %.2f", salario);
+        getch();
+        return 0; //
+    }
+
+
+}
