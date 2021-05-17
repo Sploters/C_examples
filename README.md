@@ -22,7 +22,7 @@ YOUR_PROJECT_NAME
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="IMAGE_1_URL" alt="demo" height="425">
+  <img src="https://i.pinimg.com/originals/2c/e4/d0/2ce4d0614263f4d25507dd339137a8a8.gif" alt="demo" height="425">
   <img src="IMAGE_2_URL" alt="demo" height="425">
 </div>
 
