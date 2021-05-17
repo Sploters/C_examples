@@ -1,9 +1,3 @@
-# C_examples
-EN -  Just some code for testing in C and creating an executable file.
-
-PT BR - Apenas alguns códigos para testes em C e criando um arquivo executável.
-
-
 <h1 align="center">
 <br>
   <img src="YOUR_LOGO_URL" alt="YOUR_PROJECT_NAME" width="120">
