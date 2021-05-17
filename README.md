@@ -19,7 +19,7 @@ YOUR_PROJECT_NAME
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
   <a href="https://github.com/Sploters">
-    <img src="https://img.shields.io/static/v1?label=C&message=Sploters">
+    <img src="https://img.shields.io/static/v1?label=C&message=Sploters&color=7159c1">
   </a>
 </p>
 
