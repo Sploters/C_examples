@@ -18,7 +18,7 @@ YOUR_PROJECT_NAME
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
-  <a href="#">
+  <a href"https://github.com/Sploters">
     <img src="https://img.shields.io/static/v1?label=C&message=Sploters&color=7159c1&style=for-the-badge&logo=ghost">
   </a>
 </p>
