@@ -9,7 +9,7 @@ PT BR - Apenas alguns códigos para testes em C e criando um arquivo executável
   <img src="YOUR_LOGO_URL" alt="YOUR_PROJECT_NAME" width="120">
 <br>
 <br>
-YOUR_PROJECT_NAME
+TRAINNING LANGUAGE C
 </h1>
 
 <p align="center">A little description about your project</p>
