@@ -19,7 +19,7 @@ YOUR_PROJECT_NAME
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
   <a href="#">
-    <img src="https://simpleicons.org/icons/c.svg" alt="C Language"
+    <img src="https://img.shields.io/static/v1?label=C&message=Sploters&color=7159c1&style=for-the-badge&logo=https://simpleicons.org/icons/c.svg">
   </a>
 </p>
 
