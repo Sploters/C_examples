@@ -13,13 +13,7 @@ TRAINNING LANGUAGE C
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
   <a href="https://github.com/Sploters">
-    <img src="https://img.shields.io/static/v1?label=C&message=Sploters&color=7159c1">
-  <a href="https://github.com/Sploters">
     <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
-  </a>
-  </a>
-  <a href="https://github.com/Sploters">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
 </p>
 
